@@ -37,13 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     private RecyclerView mCheckedListRecyclerView;
     private CheckListItemAdapter mCheckedListAdapter;
-
-    private static int[] mClaimItemList = {
-            R.drawable.kimbap,
-            R.drawable.lays,
-            R.drawable.playdoh,
-            R.drawable.car_ride
-    };
+    
     private RecyclerView mClaimListRecyclerView;
     private ClaimListItemAdapter mClaimListAdapter;
 
