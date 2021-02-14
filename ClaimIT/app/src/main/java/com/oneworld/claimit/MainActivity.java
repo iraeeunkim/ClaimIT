@@ -56,10 +56,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         toDoList.add(new ToDoList("Wake up at 9am"));
-        toDoList.add(new ToDoList("Brush Teeth in the morning"));
+        toDoList.add(new ToDoList("Brush teeth in the morning"));
         toDoList.add(new ToDoList("Read a book"));
-        toDoList.add(new ToDoList("Boom cards"));
-        toDoList.add(new ToDoList("Take a walk"));
+        toDoList.add(new ToDoList("Finish homework"));
         toDoList.add(new ToDoList("Sleep at 10pm"));
 
         claimItemList.add(new ClaimItem(createBitmap(R.drawable.kimbap)));
